@@ -1,13 +1,18 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1762852098056
-Build-Jdk-Spec: 25
+Bnd-LastModified: 1763021045166
+Build-Jdk-Spec: 21
 Bundle-Description: SQLite JDBC library
 Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-ManifestVersion: 2
 Bundle-Name: SQLite JDBC
 Bundle-SymbolicName: org.xerial.sqlite-jdbc;singleton:=true
-Bundle-Version: 3.51.0.0
+Bundle-Version: 0.1.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: Wallets.Accounts;uses:="Wallets.Functions";version="0.1.
+ 0",Wallets.Functions;version="0.1.0",main;version="0.1.0"
+Import-Package: Wallets.Accounts;resolution:=optional,Wallets.Functions;
+ resolution:=optional,java.io;resolution:=optional,java.lang;resolution:
+ =optional,java.lang.invoke;resolution:=optional
 Multi-Release: true
-Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
 Tool: Bnd-6.3.1.202206071316
