@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1763300323175
+Bnd-LastModified: 1763340509402
 Build-Jdk-Spec: 21
 Bundle-Description: SQLite JDBC library
 Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
