@@ -42,4 +42,3 @@ java --enable-native-access=ALL-UNNAMED -cp "lib\sqlite-jdbc-3.51.0.0.jar;.;tool
 - If DB Browser doesn't show new rows, close and reopen the DB file in the viewer or use the `DBInspect` helper to confirm the absolute path and the current rows. The helper prints the absolute DB path so you can ensure you're viewing the same file.
 - If you see native-access warnings from SQLite, the `--enable-native-access=ALL-UNNAMED` flag suppresses those warnings — it's recommended but optional.
 
-If you want, I can replace the existing `README.md` with this updated version or add a `run.ps1` that automates compile+run.
